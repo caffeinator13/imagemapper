@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Geotagging</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+	<style>
+    /* Style The Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+
+}
+#tuna {
+  display :inline;
+}
+	</style>
+  </head>
+  <body>
+    	<form action="http://localhost:5000/imgmap" align="center" method="post" enctype = "multipart/form-data">
+          <input type="file" name="pic" accept="image/*">
+          <input type="radio" name = "rad" value="completed" checked required> completed<br>
+          <input type="radio" name = "rad" value="ongoing" required> ongoing<br>
+          <input type="radio" name = "rad" value="Rejected" required> Rejected         
+          <input type="submit" value = 'submit'>
+
+      </form> 
+<!--   <div class="container" >
+  {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      {% for message in messages %}
+
+<!--           <script>
+          function myFunction() {
+              alert("Hello! I am an alert box!");
+          }
+          </script> -->
+<!--       <div class="alert alert-warning alert-dismissible" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+      {{message}}
+      </div>
+    {% endfor %}
+    {% endif %}
+  {% endwith %}
+  
+  {% block body %}{% endblock %}
+  </div> -->
+ 	<!-- <div class="dropdown">
+  		<button class="dropbtn">Dropdown</button>
+  			<div class="dropdown
+        -content">
+   				<a href="#">Link 1</a>
+    				<a href="#">Link 2</a>
+            
+    				<a href="#">Link 3</a>
+  			</div>
+	</div>
+  <img src="http://localhost:5000/imgmap" alt="Random Pic" style="width:304px;height:228px;"> -->
+</html>
