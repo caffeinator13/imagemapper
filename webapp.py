@@ -12,7 +12,7 @@ def get_thumbnail(im):
     file = im.split('.')[0]
     im = Image.open(im)
     im.thumbnail(size)
-    thumbnail=im.save('static/'+file + ".thumbnail", "JPEG")
+    thumbnail=im.save(file + ".thumbnail", "JPEG")
 
 app = Flask(__name__)
 
@@ -36,8 +36,9 @@ def login(name=None):
 		img_f = request.files['pic']
 		#img_f.save('/media/image.jpg')
 		try:
-			img_f.save(secure_filename(img_f.filename))
-			gps_info = get_gpsinfo.get_loc(img_f.filename)
+			#img_f.save(secure_filename('static/'+ img_f.filename))
+			img_f.save('static/'+ img_f.filename)
+			gps_info = get_gpsinfo.get_loc('static/'+ img_f.filename)
 		except:
 			return render_template('main.html')
 		if gps_info == 'A':
@@ -48,7 +49,7 @@ def login(name=None):
 			#return 'Your Image is not Geo-Tagged. Please Upload a Geo-tagged Image'
 			
 		else:
-			get_thumbnail(img_f.filename)
+			get_thumbnail('static/'+ img_f.filename)
 			thmb = img_f.filename.split('.')[0] + '.thumbnail'
 			return render_template('imgmap.html', name=name,lat=gps_info[0],long=gps_info[1], thmb = thmb, rad=rad)
 

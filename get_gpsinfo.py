@@ -30,6 +30,7 @@ def get_loc(image):
 				lat = lat_d + lat_m + lat_s
 				lon = long_d + long_m + long_s
 				gps_info = [lat,lon]
+				print "GPSInfo"
 			except:
 				gps_info = 'A'
 		else:
