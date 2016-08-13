@@ -161,8 +161,12 @@ input[type=submit] {
               zoom: 10,
               mapTypeControlOptions: {
                   position: google.maps.ControlPosition.BOTTOM_RIGHT
-              },
+              },  
             });
+          var ctaLayer = new google.maps.KmlLayer({
+            url: 'https://www.google.com/maps/d/embed?mid=1qPemIjZCdhwkWdXXBSB9n6S27k8',
+            map: map
+        });
           }
           </script>
           <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbLHWA00zx9FW9qT_kicXVELacMBo8Dao&callback=initMap"
