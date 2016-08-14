@@ -1,54 +1,7 @@
-<html>
-<head>
-
-<meta 
-   http-equiv="refresh" 
-   content="2; URL=https://github.com/vendorude/imagemapper/blob/master/ggeoxml/IIT Kgp.kml"
-   download="IIT Kgp.kml"/>
-<!-- 
-The number of seconds can be changed to any integer, 
-     including zero, by changing the number between 
-     the quotation mark and the semi-colon following 
-     content=
-The URL can be changed to any URL that initiates the 
-     downloading process.
--->
-
-</head>
-<body>
-
-<p>
-Two seconds after the page finishes loading, 
-http://www.willmaster.com/test.zip will begin downloading. 
-(This is done with the <meta.../> tag in the head 
-area. See notes in the source code about changing URL 
-and timing.)
-</p>
-<p>
-Nine seconds after the page finishes loading, the page 
-will redirect to http://www.willmaster.com/ � the 
-download may or may not be finished by the time the page 
-is redirected. (This is done with the JavaScript located 
-below this point in the source code, although it could 
-be located pretty much anywhere. See notes in the source 
-code about changing URL and timing.)
-</p>
-
-
-<script type="text/javascript" language="JavaScript"><!--
-
-function Redirect() {
-// The URL between the quotation marks may be changed.
-window.location = "https://github.com/vendorude/imagemapper/blob/master/ggeoxml/";
-}
-
-// The timing may be changed by changing the number in the 
-//   setTimeout function call parameters. The number represents 
-//   thousandths of a second. Therefore, 9000 is 9 seconds.
-window.onload = function() { setTimeout("Redirect()",9000); }
-
-//--></script>
-
-</body>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<title>MapViz</title>
+    	<a href="https://github.com/vendorude/imagemapper/blob/master/ggeoxml/IIT Kgp.kml" download="IIT Kgp.kml">IIT Kgp.kml</a>
+	</head>
 </html>
-
