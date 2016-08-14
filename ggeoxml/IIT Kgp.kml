@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>IIT Kgp</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>Remote</name>
+			<Placemark>
+				<name>IIT Kgp</name>
+				<styleUrl>#poly-000000-1-77-nodesc</styleUrl>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<tessellate>1</tessellate>
+							<coordinates>87.2979641,22.3216737,0.0 87.2971487,22.3205819,0.0 87.2955179,22.3183389,0.0 87.2945309,22.3169295,0.0 87.2941661,22.3158377,0.0 87.2937584,22.3132174,0.0 87.2938657,22.3118874,0.0 87.2945309,22.3108154,0.0 87.2955394,22.3103589,0.0 87.2959256,22.3099618,0.0 87.2963011,22.3093663,0.0 87.2968912,22.3086913,0.0 87.2984362,22.3082347,0.0 87.2995734,22.3079568,0.0 87.3006678,22.3080362,0.0 87.3011613,22.3086119,0.0 87.3018694,22.3093663,0.0 87.3023629,22.309545,0.0 87.3036718,22.3096641,0.0 87.3045301,22.309267,0.0 87.3047018,22.3087906,0.0 87.3050022,22.3083539,0.0 87.3080063,22.3059915,0.0 87.3093152,22.3066466,0.0 87.3101521,22.3066665,0.0 87.3103666,22.3070436,0.0 87.3115039,22.3073017,0.0 87.3125124,22.3065275,0.0 87.3148513,22.3066665,0.0 87.3150873,22.3071628,0.0 87.3155594,22.3070635,0.0 87.3164392,22.3071429,0.0 87.3166537,22.3070238,0.0 87.3173618,22.3067657,0.0 87.3183703,22.3072422,0.0 87.3183274,22.3077186,0.0 87.3188853,22.3079568,0.0 87.3197865,22.3077583,0.0 87.3215675,22.3084928,0.0 87.321825,22.3088898,0.0 87.3220396,22.3094258,0.0 87.3225117,22.3097435,0.0 87.3230267,22.3100214,0.0 87.3236489,22.3100809,0.0 87.3238635,22.3099618,0.0 87.324357,22.3099817,0.0 87.3250866,22.3101603,0.0 87.3254299,22.3101206,0.0 87.3265672,22.3105375,0.0 87.3273182,22.3108353,0.0 87.3279834,22.3111132,0.0 87.3285413,22.3114705,0.0 87.3286915,22.3118477,0.0 87.3286271,22.3122844,0.0 87.328434,22.312741,0.0 87.3281765,22.3130586,0.0 87.3258805,22.314607,0.0 87.325666,22.315004,0.0 87.3237562,22.3160561,0.0 87.3235416,22.315798,0.0 87.3217607,22.316731,0.0 87.3216748,22.3170089,0.0 87.3192501,22.3186962,0.0 87.3171258,22.3203437,0.0 87.3175335,22.3208797,0.0 87.3156881,22.3220508,0.0 87.3146582,22.3224081,0.0 87.3130274,22.3225669,0.0 87.3105168,22.3228448,0.0 87.3086715,22.3228845,0.0 87.3069978,22.3229838,0.0 87.3054957,22.3228845,0.0 87.3039722,22.322686,0.0 87.3017836,22.3223089,0.0 87.2999382,22.3219913,0.0 87.2988009,22.3218523,0.0 87.2979641,22.3216737,0.0</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>sample 1</name>
+				<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/BUFQn-RNILsNQOxucvncPGjt_H_IgYLM1kCl-BfmPxxL9Ec4Cgmm0AxrBaNQGYbvGZA-gdbOilqSkmzU-gu6rcIsWnha_iyPc5Q0eAEd4uILXEXiNLqHAXYUSbQRp3KwtFDKU5JXayq-mDM2" height="200" width="auto" /><br><br>Cool]]></description>
+				<styleUrl>#icon-1502-0F9D58</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>https://lh5.googleusercontent.com/proxy/BUFQn-RNILsNQOxucvncPGjt_H_IgYLM1kCl-BfmPxxL9Ec4Cgmm0AxrBaNQGYbvGZA-gdbOilqSkmzU-gu6rcIsWnha_iyPc5Q0eAEd4uILXEXiNLqHAXYUSbQRp3KwtFDKU5JXayq-mDM2</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>87.320044,22.3144482,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-1502-0F9D58-normal'>
+			<IconStyle>
+				<color>ff589D0F</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-1502-0F9D58-highlight'>
+			<IconStyle>
+				<color>ff589D0F</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.0</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-1502-0F9D58'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1502-0F9D58-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1502-0F9D58-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='poly-000000-1-77-nodesc-normal'>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4D000000</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='poly-000000-1-77-nodesc-highlight'>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>2.0</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4D000000</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='poly-000000-1-77-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#poly-000000-1-77-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#poly-000000-1-77-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

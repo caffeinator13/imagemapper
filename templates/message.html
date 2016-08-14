@@ -1,0 +1,22 @@
+  <div class="container" >
+  {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      {% for message in messages %}
+      
+<!--           <script>
+          function myFunction() {
+              alert("Hello! I am an alert box!");
+          }
+          </script> -->
+      <div class="alert alert-warning alert-dismissible" role="alert" align='center'>
+      <h2>{{message}}</h2>
+      <p></p>
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close" value='Go to Home' onclick="location.href='http://localhost:5000/'"><span aria-hidden="true">Go to Home</span></button>
+      
+      </div>
+    {% endfor %}
+    {% endif %}
+  {% endwith %}
+  
+  {% block body %}{% endblock %}
+  </div>
