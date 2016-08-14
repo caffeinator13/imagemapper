@@ -3,7 +3,21 @@
 	<head>
     	<title>MapViz</title>
     	<a href="https://github.com/vendorude/imagemapper/blob/master/ggeoxml/IIT Kgp.kml" download="IIT Kgp.kml">IIT Kgp.kml</a>
-    	<iframe width="1" height="1" frameborder="0" src="https://github.com/vendorude/imagemapper/blob/master/ggeoxml/IIT Kgp.kml">
+    	<p>The download should start shortly. If it doesn't, click
+		<a data-auto-download href="https://github.com/vendorude/imagemapper/blob/master/ggeoxml/IIT Kgp.kml">here</a>.</p>
     	</iframe>
 	</head>
+	<body>
+	<script type="text/javascript">
+		$(function() {
+  			$('a[data-auto-download]').each(function(){
+   				 var $this = $(this);
+   				 setTimeout(function() {
+   	 			  window.location = $this.attr('href');
+  	 			 }, 2000);
+ 			 });
+		});
+	</script>
+		
+	</body>
 </html>
