@@ -1,7 +1,7 @@
-## GeoTag your images
+# GeoTag your images
 
-Steps to deploy this app on localhost
-=====================================
+Deploy
+======
 
 Clone the repository
 
